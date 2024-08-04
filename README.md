@@ -95,7 +95,153 @@ int main() {
 
 <hr>
 
+### LINK
 
-``The background color is `#ffffff` for light mode and `#000000` for dark mode.``
+`This site was built using [GitHub Pages](https://pages.github.com/).`
 
-The background color is `#ffffff` for light mode and `#000000` for dark mode.
+This site was built using [GitHub Pages](https://pages.github.com/).
+
+<hr>
+
+### IMAGES
+
+`![Hello World](<img decoding="async" src="https://via.placeholder.com/300x250/333/FFF?text=Hello+World" alt="">)`
+
+
+![Hello World](https://via.placeholder.com/300x250/333/FFF?text=Hello+World)
+
+
+`<img alt="Hello World" src="https://via.placeholder.com/300x250/333/FFF?text=Hello+World">`
+
+
+<img alt="Hello World" src="https://via.placeholder.com/300x250/333/FFF?text=Hello+World">
+
+<hr>
+
+### Lists
+
+```
+- George Washington
+* John Adams
++ Thomas Jefferson
+```
+Result 
+- George Washington
+* John Adams
++ Thomas Jefferson
+
+
+```
+1. James Madison
+2. James Monroe
+3. John Quincy Adams
+```
+Result 
+1. James Madison
+2. James Monroe
+3. John Quincy Adams
+
+
+```
+1. First list item
+TAB - First nested list item
+2TABS   - Second nested list item
+```
+Result 
+1. First list item
+    - First nested list item
+        - Second nested list item
+
+<hr>
+
+### Alerts
+
+```
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+```
+
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
+<hr>
+
+### Hiding content with comments
+
+`<!-- This content will not appear in the rendered Markdown -->`
+
+<!-- This content will not appear in the rendered Markdown -->
+
+<hr>
+
+### Ignoring Markdown formatting
+
+`Let's rename \*our-new-project\* to \*our-old-project\*.`
+
+Let's rename \*our-new-project\* to \*our-old-project\*.
+
+<hr>
+
+### Task lists
+
+```
+- [x] Task one
+- [ ] Task two 
+- [ ] Task three
+```
+- [x] Task one
+- [ ] Task two 
+- [ ] Task three
+
+<hr>
+
+### Using emojis
+
+`:white_heart:`
+:white_heart:
+
+<hr>
+
+### Footnotes
+
+```
+Here is a simple footnote[^1].
+
+A footnote can also have multiple lines[^2].
+
+[^1]: My reference.
+[^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
+  This is a second line.
+```
+
+Here is a simple footnote[^1].
+
+A footnote can also have multiple lines[^2].
+
+[^1]: My reference.
+[^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
+  This is a second line.
